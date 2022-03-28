@@ -1,0 +1,15 @@
+<h1>POST</h1>
+<hr>
+<div class="posts">
+    <div class="post" *ngFor="let post of arrPost">
+        <h3>{{post.title.toUpperCase()}}</h3>
+        <hr>
+        <p>Cuerpo: {{post.body}}</p>
+        <p>Autor: {{post.author}}</p>
+        <p>Categoria: {{post.category}}</p>
+        <p>Fecha: {{post.createdAt}}</p>
+
+    </div>
+</div>
+
+<button (click)="onClick()">Crear nuevo formulario</button>

@@ -1,0 +1,22 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.post{
+    background-color: #add8e6;
+    border-radius: 15px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
